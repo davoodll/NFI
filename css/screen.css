@@ -1,0 +1,535 @@
+body
+{
+background: #D1E1ED;  
+margin-top: 15px; 
+font-family:"Trebuchet MS",Verdana,Arial,sans-serif;
+font-size: 14px;
+line-height: 1.4em;
+}
+
+#wrapper
+{
+width: 937px;
+margin: 0 auto;
+}
+header
+{
+width: 937px;        
+text-align: center;
+top:0;
+margin-bottom: -15px;
+background: none;
+margin-left:auto;
+margin-right: auto;
+}
+
+
+#top
+{
+
+height: 20px; 
+width: 100%;
+margin-top:2%;
+z-index: 99; 
+background: #D1E1ED;
+top: 0px;
+display:block;
+}
+ 
+#top a:hover 
+{
+background-color: #FAFFFA;
+color: #D1E1ED;
+}
+
+#top ul
+{
+height: 50px;
+padding: 0;
+z-index: 100; 
+}
+ 
+
+.rounded-tl
+{
+-webkit-border-top-left-radius: 5px;
+-moz-border-radius-topleft: 5px;
+border-top-left-radius: 5px;
+}
+
+.rounded-bl
+{
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-left-radius: 5px;
+}
+
+#top ul li
+{
+padding: 16px 0px 15px 0px;
+width: 132.8px;
+text-align: center;
+border-right: 1px solid #00638D;
+background: #00638D;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00638D), color-stop(100%,#00385B));
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00638D', endColorstr='#00385B',GradientType=0 );
+background: -o-linear-gradient(top, #00638D 0%,#00385B 100%);
+background: -moz-linear-gradient(top, #00638D 0%,#00385B 100%);
+float: left;
+display:block;
+padding: 0;
+}
+
+#top ul li a
+{
+color: white;
+display: block;
+padding: 15px 0;
+text-shadow: 0px 0px 3px #999;
+font-size: 14px;
+font-family: Verdana;
+text-decoration: none;
+}
+.clear{
+	clear:both;
+}
+#top ul li a:hover
+{
+background-color: white;
+color: blue;
+}
+
+#content
+{
+padding: 20px;
+background: #FAFFFA;
+width: 897px;
+display: block;
+margin-top: 4%;
+margin-left: auto;
+margin-right: auto;
+text-align: left;
+/* top venstre */
+-webkit-border-top-left-radius: 5px;
+-moz-border-radius-topleft: 5px;
+border-top-left-radius: 5px;
+/* top høyre */
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topright: 5px;
+border-top-right-radius: 5px;
+}
+
+
+#content ul
+{
+width: 900px;
+height: 340px;
+position: relative;
+margin-right: auto;
+margin-left: auto;
+top: 1%;
+padding-bottom: 10px;
+}
+
+#content ul li
+{
+width: 28%;
+height: 150px;
+display: block;
+float: left;
+margin: 5px 2px;
+margin-right: auto;
+margin-left: auto;
+
+padding: 9px;
+opacity: 1;
+
+}
+
+#content ul li img
+{
+width: 100%;
+height: 150px;
+border-radius:5px 5px 5px 5px;
+}
+
+.title
+{
+width: 97%;
+height: 15px;
+background-color: rgb(0,0,0);
+text-align: left;
+padding-left: 15px;
+line-height: 15px;
+float: left;
+position: relative;
+color: white;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+padding: 6px 4px;
+overflow: hidden;
+top: -30px;
+}
+
+#Bilder
+{
+width:900px;
+height:400px;
+}
+
+#royalCaptionItem
+{
+clear:both;
+font-size:2em;	
+line-height:1.5em;
+position:relative;	
+margin:0;
+position: relative;
+left: 25px;
+top: -100px;
+display: inline-block; 
+float: left;
+padding:0;
+}
+
+#captionCar
+{
+color: white;
+float: left;
+font-size: 28px;
+text-shadow: 1px 1px 5px #222;
+background: #111;
+padding: 10px 15px 10px 15px;
+}
+
+
+#content_2
+{
+padding: 20px;
+background: #fff;
+width: 900px;
+display: block;
+margin-top: 4%;
+margin-left: auto;
+margin-right: auto;
+text-align: left;
+/* top venstre */
+-webkit-border-top-left-radius: 5px;
+-moz-border-radius-topleft: 5px;
+border-top-left-radius: 5px;
+/* top høyre */
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topright: 5px;
+border-top-right-radius: 5px;
+}
+
+#content_3
+{
+padding: 20px;
+background: none;
+width: 900px;
+
+display: block;
+margin-top: 1%;
+margin-left: auto;
+margin-right: auto;
+text-align: left;
+/* top venstre */
+-webkit-border-top-left-radius: 5px;
+-moz-border-radius-topleft: 5px;
+border-top-left-radius: 5px;
+/* top høyre */
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topright: 5px;
+border-top-right-radius: 5px;
+}
+
+#content_3 ul
+{
+width: 900px;
+height: 180px;
+position: relative;
+margin-right: auto;
+margin-left: auto;
+top: -20px;
+padding-bottom: 10px;
+}
+
+#content_3 ul li
+{
+width: 28%;
+height: 100%;
+display: block;
+float: left;
+margin-top: 0.001%;
+margin-right: auto;
+margin-left: auto;
+
+padding: 9px;
+opacity: 1;
+}
+
+#content_3 ul li img
+{
+width: 100%;
+height: 180px;
+border-radius:0px 0px 5px 5px;
+}
+
+.title2
+{
+width: 97%;
+height: 15px;
+background-color: rgb(0,0,0);
+text-align: left;
+padding-left: 15px;
+line-height: 15px;
+float: left;
+position: relative;
+color: white;
+border-radius: 5px 5px 0px 0px;;
+padding: 6px 4px;
+overflow: hidden;
+}
+.title2:hover
+{
+	text-decoration: underline;
+}
+.reklame:hover
+{
+	-webkit-filter: grayscale(100%); /*for Chrome Opera og safari*/
+	filter: gray; /*for internet explorer*/
+}
+
+.menybilder
+{
+
+}
+#Spider
+{
+width: 400px;
+height: 200px;
+float: left;
+display: block;
+margin-top:2%;
+}
+
+#California
+{
+float: left;
+display: block;
+margin-top: 2%;
+}
+
+#Ferrari599
+{
+font-weight:bold;
+}
+
+#gto
+{
+width: 900px;
+height: 350px;
+display: block;
+}
+
+/*--- Lagt til av Magnus ---*/
+#mod {
+	text-align: center;
+}
+#top_m {
+	display:none;
+}
+ 
+#content_js {
+	display: none;
+}
+
+.off {
+	display: none;
+}
+
+.switch {
+	display: none;
+}
+
+#set_web {
+	display: none;
+}
+
+#twitter_div {
+	height: 150px;
+}
+
+ul#twitter_update_list { 
+	width: 100%; 
+	height: 110px;
+	padding: 0; 
+	margin: 0; 
+	overflow: hidden; 
+}
+
+ul#twitter_update_list li { 
+	width: 30%; 
+	height: 100px;
+	list-style: none; 
+	display: block; 
+}
+
+#twitter-link {
+	display: none;
+}
+
+#content2 iframe {
+	margin-top: 20px;
+}
+
+#service_1 {
+	display: none;
+}
+/*--- Lagt til av Alexander ---*/
+footer
+{
+	padding-top: 1%;
+	text-align: center;
+	font-size: 1.1em;
+	margin-left: auto;
+	margin-right: auto;
+}
+#folgOss
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#ytterst
+{
+	font-weight: bold;
+	font-size:1.2em;
+	text-align: center;
+	width: 80%;
+	min-height: 80%;
+	margin-top:5%;
+	margin-right: 10%;
+	margin-left: 10%;
+	background-color: white;
+}
+#inni
+{
+	padding-top:8%;
+	line-height: 2.5em;
+}
+#overskriftHenvendelse
+{
+	text-align: center;
+}
+#sendKnapp
+{
+	width:70px;
+	height:30px;
+}
+.adresseInput
+{
+	width: 400px;
+}
+.emailInput
+{
+	width: 400px;
+}
+.telefonInput
+{
+	width: 100px;
+}
+#lukkKnapp
+{
+	width: 80%;
+	margin-left:10%;
+	margin-right:10%;
+	height: 2em;
+}
+#automatiskLukk
+{
+	text-align: center;
+}
+#kart1
+{
+	float: right;
+}
+#kart2
+{
+	float: right;
+}
+#kontaktOss
+{
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+}
+#kontaktskjemaKnapp
+{
+	width:100%;
+	height:2em;
+}
+
+#provekjoringSkjema
+{
+	margin-top:-50px;
+	font-size:0.9em;
+}
+.kart1
+{
+float: right;
+height: 30em;
+width: 57%;
+}
+#program ul li
+{
+	float: none;
+	margin: none;
+	padding: 0;
+	width: 100%;
+	height: 7%;
+}
+#program ul
+{
+	padding:0;
+	width: 30%;
+	display: inline-block;
+	text-align: center;
+	margin-top:0px;
+	vertical-align: text-top;
+}
+#program h2
+{
+	text-align: center;
+	margin-top: 3%;
+	font-size: 2em
+}
+#banekjoringsbanner
+{
+	display: block;
+	margin: 0;
+	width: 100%;
+}
+#kampanjenInkluderer
+{
+	margin-top:-80px;
+	text-align: center;
+}
+#captionCar a:link
+{
+	color: white;
+	text-decoration: none;
+}
+
+#captionCar a:visited
+{
+	color: white;
+}
+#captionCar a:hover
+{
+	text-decoration: underline;
+}
+

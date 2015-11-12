@@ -1,0 +1,283 @@
+body {										/* Font-family, size og line-heigth */
+	background: black;  							/* lik som på screen.css */
+	margin-left: auto;
+	margin-right: auto;
+	font-family:"Trebuchet MS",Verdana,Arial,sans-serif;
+	font-size: 14px;							/* Eneste konkrete størrelse på mobile.css */
+	line-height: 1.4em;
+}
+#top {										/* Fjerner innhold som kun skal vises av screen.css */
+	display:none;
+}
+#index-link {
+	display: none;
+}
+#content_3 {
+	display: none;
+}
+#set_mobile {
+	display: none;
+}
+#button{
+	display: none;
+}
+#service_2 {
+	display: none;
+}
+#folgOss {
+	display: none;
+}
+h1 {										/* Setter forrholdet mellom h1, h2 og h3 */
+	font-size: 1.25em;
+	line-height: 1.15em;
+}
+h2 {
+	font-size: 1.15em;
+	line-height: 1.05em;
+}
+h3 {
+	font-size: 1.10em;
+	line-height: 1em;
+}
+header {									/* Sentrerer logo "Norsk Ferrarri import" */
+	text-align: center;
+}
+header img{									
+	width: 100%;
+	border: none;
+}
+#top_m {									/* Lager top-bar for hjem, tweet, face og meny - */
+	background-color: #b0c4de;						/* iconer */
+	border: 0.25em solid transparent;
+	border-radius: 1em;
+	padding: 1em;
+	margin-bottom: 1em;
+	margin-top: 1.5em;
+	height: 7.5em;
+	text-align: right;
+}
+#menu {										/* plasserer meny icon */
+	position: relative;							/* Funksjon: */
+	float: right;								/* åpner menyen */
+	margin-top: 1em;
+	right: 85%;
+	border: none;
+}
+#home {										/* plasserer hjem icon */
+	position: relative;							/* Funksjon: */
+	float: left;								/* går til index.html */
+	border: none;
+}
+#tweet {									/* plasserer twitter icon */
+	position: relative;							/* Funksjon: */
+	float: left;								/* går til MarkedsAvdeling på twitter */
+	left: 5%;
+	height: 6em;
+	margin-top: 1em;
+	border: none;
+}
+#face {										/* plasserer facebook icon */
+	position: relative;							/* Funksjon: */
+	float: left;								/* går til NorskFerrariImport på facebook */
+	left: 10%;
+	height: 6em;
+	margin-top: 1em;
+	border: none;
+}
+li #menu0 {									/* plasserer meny icon i uordnet liste */
+	position:relative;							/* også kjent som "menyen" */
+	margin-top: 0.5em;							/* Funksjon: */
+	float: right;								/* lukker menyen */
+	right: -12.5%;
+	border: none;
+}
+li #home0 {									/* plasserer hjem icon i ul "meny" */
+	position: relative;							/* Funksjon: */
+	float: left;								/* går til index.html */
+	left: -15%;
+	border: none;
+}
+#top_m ul {									/* setter listestil på meny element ul */
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+#top_m ul li {									/* setter posisjon på meny, når synlig */
+	width: 55%;
+	position: relative;
+	float: right;
+}
+#top_m ul ul {									/* stiler ul ul med bakgrunnsfarge, - */
+	background: #efefef; 							/* "fylde" og runde kanter */
+	padding: 3.75em;							/* Funksjon: */
+	border-radius: 0.7em; 							/* ul ul tilsvarer bakgrunden for de liste */
+}										/* objektene som utgjør sidevalgene */
+
+#top_m ul ul li {								/* stiler ul ul li, som er listeobjektene */
+	border-top: 0.05em solid #6b727c;					/* Modeller, brosjyre, kampanje, osv. */
+	border-bottom: 0.05em solid #575f6a;					/* Funksjon: */
+	padding: 0.90em 0.75em;							/* setter størrelse på tekst og luften rundt*/
+	color: #b0c4de;								/* setter over og understreker til tekst - */
+	font-size: 4em;								/* området "border", sentrerer teksten og - */
+	text-align: center;							/* setter bredden på border */
+	width: 75%;
+}
+#top_m ul ul li a:visited {							/* Setter farge på linker i menyen som har */
+	color: #b0c4de;								/* vært besøkt */
+	text-decoration: none;
+}
+#top_m ul ul li a:link {							/* Setter farge på linker i menyen som ikke */
+	color: #00638D;								/* har vært besøkt */
+	text-decoration: none;
+}
+#content, #content_2 {								/* Setter posisjon og minimums høyde pluss */
+	margin-top: 2.75em;							/* sentrering på content "innhold" */
+	min-height: 55em;
+	width: 100%;
+}
+#content a:link, #content_2 a:link {						/* Stiler linker som vises i innhold */
+	color: #00638D;
+	text-decoration: underline;
+}
+#content a:visited, #content_2 a:visited {
+	color: #00638D;
+}
+.switch {									/* Lager "brytere" som kan skjule åpne, */
+	background-color: #b0c4de		!important;			/* lukke text og annet innhold */
+	border: 0.1em solid transparent		!important;			/* slal være lik på alle undersider */
+	border-radius: 1em			!important;			/* uansett plassering, derfor !important*/
+	font-size: 4em				!important;
+	line-height: 0.1em			!important;
+	margin-left: auto			!important;
+	margin-right: auto			!important;
+	margin-bottom: 0.25em			!important;
+	width: 90%				!important;
+	text-align: center			!important;
+}
+#content1, #content2, #content3, #content4 {					/* Innholds "containere" for allt innhold */
+	background-color: #808080;						/* på siden Omoss.html */
+	color: #b0c4de;								/* vises og skjules ved og bruke .switch - */
+	text-align: left;							/* "Knappene", selve dynamikken utføres av */
+	font-size: 4.5em;							/* Jquery scriptet js/content.js */
+	line-height: 1.5em;
+	padding: 0.75em;
+	border-radius: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0.25em;
+	width: 75%;
+}
+#content1 ul {
+	list-style: none;
+}
+#content1 ul li img {
+	width: 95%;
+	height: 6em;
+	margin-top: 0.5em;
+}
+#content5, #content6 {								/* Innholds "container for innholdet på - */
+	background-color: #808080;						/* siden Modeller */
+	color: #b0c4de;								/* lik som 1, 2, 3, 4 men mer plass */
+	text-align: left;							/* content6 har også eget jquery script */
+	font-size: 4.5em;							/* for og være åpent når siden vises */
+	line-height: 1.5em;
+	padding: 0.15em;
+	border-radius: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0.25em;
+	width: 97.5%;
+}
+#off5b {
+	padding-left: 0.75em;
+}
+#Bilder {
+	width: 100%;
+}
+#banekjoringsbanner {								/* stiler Kampanje sin banner */
+	width: 100%;
+	border: none;
+	margin-bottom: 0.5em;
+}
+.html5gallery {									/* Plassering av Davoods html5gallery. */
+	margin-left: auto;							/* finnes på siden Modeller */
+	margin-right: auto;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	border: none;
+}
+iframe {									/* Setter størrelse på Google.maps sin iframe */
+	width: 100%;								
+	height: 9em;
+	border: none;
+}
+small {										/* small er brukt som "komentarer" med liten skrift */
+	font-size: 0.75em;
+}
+small a:link {									
+	color: #b0c4de;								
+}										
+small a:visited {
+	color: #b0c4de;
+	text-decoration: none;
+}
+.twitter-title {								/* Stiler twitter tittel "Siste tweet`s */
+	color: #00638D;
+	margin-bottom: 0.5em;
+	text-align: center;
+	font-size: 1em;
+}
+ul#twitter_update_list { 							/* stiler twitter sin ul */
+	width: 100%; 
+	padding: 0; 
+	margin: 0; 
+	overflow: hidden; 
+}
+ul#twitter_update_list li { 							/* stiler individuelle tweet`s */
+	width: 95%; 
+	padding: 0.5em 0 0.5em 0; 
+	border-bottom: solid 0.1em #b0c4de; 
+	list-style: none; 
+	display: block; 
+	color: #b0c4de;
+}
+ul#twitter_update_list li a:link { 						/* stiler linker på tweet`s */
+	color: #00638D; 
+	border-bottom: dotted 0.1em; 
+	text-decoration: none; 
+}
+ul#twitter_update_list li a:visited { 
+	color: #b0c4de; 
+	border-bottom: solid 0.1em; 
+	text-decoration: none;
+}
+#twitter-link {									/* stiler "følg NFI på twitter */
+	margin-top: 1em;
+	text-align: center;
+}
+#twitter-link a:link {
+	color: #00638D;
+	text-decoration: underline;
+}
+#twitter-link a:visited {
+	color: #00638D;
+	text-decoration: none;
+}
+footer {									/* Stiler footer, og footer innhold */
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 0.25em solid #b0c4de;
+	text-align: center;
+	color: #b0c4de;
+	padding-top: 1.25em;
+	line-height: 1em;
+	font-size: 2.5em;
+}										/* Stiler footer sine linker */
+footer a:link {
+	color: #b0c4de;
+}
+footer a:visited {
+	color: #b0c4de;
+	text-decoration: none;
+}
